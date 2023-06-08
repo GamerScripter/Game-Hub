@@ -17,7 +17,7 @@ Ping.Size = UDim2.new(0, 125, 0, 25)
 Ping.Font = Enum.Font.SourceSans
 Ping.TextColor3 = Color3.fromRGB(1, 1, 1)
 Ping.TextScaled = true
-Ping.TextSize = 14.000
+Ping.TextSize = 20.000
 Ping.TextWrapped = true
 
 local script = Instance.new('LocalScript', Ping)
