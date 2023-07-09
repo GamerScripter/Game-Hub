@@ -1,3 +1,4 @@
+--script is not mine i just upload it here because the main source might be deleted
 while wait(0.5) do
 
     for i, box in ipairs(workspace:GetDescendants()) do
