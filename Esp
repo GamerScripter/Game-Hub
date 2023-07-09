@@ -1,3 +1,4 @@
+--script is not mine i just upload it here because the main source might be deleted
 local FillColor = Color3.fromRGB(255,0,0)
 local DepthMode = "AlwaysOnTop"
 local FillTransparency = 0.5
