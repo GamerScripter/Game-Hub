@@ -1,3 +1,5 @@
+--script is not mine i just upload it here because the main source might be deleted
+
 local Camera = game:GetService("Workspace").CurrentCamera
 
 local Players = game:GetService("Players")
