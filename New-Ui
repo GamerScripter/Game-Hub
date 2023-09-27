@@ -88,7 +88,7 @@ function Library:Create(xHubName,xGameName)
     Main.Position = UDim2.new(0.278277636, 0, 0.281287253, 0)
     Main.Size = UDim2.new(0, 580, 0, 370)
 
-    MainCorner.CornerRadius = UDim.new(0, 12)
+    MainCorner.CornerRadius = UDim.new(0, 10)
     MainCorner.Name = "MainCorner"
     MainCorner.Parent = Main
 
@@ -263,7 +263,7 @@ function Library:Create(xHubName,xGameName)
             LabelFrame.Parent = Tab
             LabelFrame.BackgroundColor3 = Color3.fromRGB(20, 52, 164)
             LabelFrame.Position = UDim2.new(0.0456621014, 0, 0, 0)
-            LabelFrame.Size = UDim2.new(0, 408, 0, 30)
+            LabelFrame.Size = UDim2.new(0, 405, 0, 30)
 
             LabelFrameCorner.Name = "LabelFrameCorner"
             LabelFrameCorner.Parent = LabelFrame
@@ -273,7 +273,8 @@ function Library:Create(xHubName,xGameName)
             Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Label.BackgroundTransparency = 1.000
             Label.BorderSizePixel = 0
-            Label.Size = UDim2.new(0, 408, 0, 30)
+            Label.Size = UDim2.new(0, 405, 0, 30)
+            Label.Position = UDim2.new(0.0198863633, 0, 0, 0)
             Label.Font = Enum.Font.Gotham
             Label.Text = Name
             Label.TextXAlignment = Enum.TextXAlignment.Left
