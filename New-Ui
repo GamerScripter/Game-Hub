@@ -592,7 +592,7 @@ function Library:Create(xHubName,xGameName)
             TextboxFrame.BackgroundColor3 = Color3.fromRGB(20, 20,20)
             TextboxFrame.Size = UDim2.new(0, 408, 0, 30)
             
-            TextboxFrame.CornerRadius = UDim.new(0, 4)
+            TextboxFrameCorner.CornerRadius = UDim.new(0, 4)
             TextboxFrameCorner.Name = "TextboxFrameCorner"
             TextboxFrameCorner.Parent = TextboxFrame
 
